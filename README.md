@@ -1,5 +1,10 @@
 # Project Name
-> Outline a brief description of your project.
+> Design a ML/DL based chatbot utility which can help the professionals to highlight the safety risk as per the incident description.
+
+
+
+
+
 
 
 ## Table of Contents
@@ -11,38 +16,53 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The database comes from one of the biggest industries in Brazil and the world. Industries and companies around the globe urgently need to understand why employees still suffer injuries and accidents in plants. Sometimes, they also die in such an environment.
+
+- To help professionals before going to work to understand the safety risk on particular task.
+- Identify the risk level in industry with the help of work description.
+- This database is basically records of accidents from 12 different plants in 03 different countries where every line in the data is an occurrence of an accident.
+- Columns description:
+- Data: timestamp or time/date information
+- Countries: which country the accident occurred (anonymised)
+- Local: the city where the manufacturing plant is located (anonymised)
+- Industry sector: which sector the plant belongs to
+- Accident level: from I to VI, it registers how severe was the accident (I means not severe but VI means very severe)
+- Potential Accident Level: Depending on the Accident Level, the database also registers how severe the accident could have been (due to other factors involved in the accident)
+- Genre: if the person is male of female
+- Employee or Third Party: if the injured person is an employee or a third party
+- Critical Risk: some description of the risk involved in the accident
+- Description: Detailed description of how the accident happened.
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Gradient Boosting emerged as the best performer, achieving a test accuracy of 92.03% with perfect training accuracy (100%). This highlights its strong ability to handle the increased dataset size and complexity augmentation introduced.
+- Address class imbalance using oversampling, undersampling, or class weights.
+- Validate the quality and representativeness of embeddings and categorical features.
+- Evaluate the model on more granular metrics per class to better understand its performance.
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Colab Notebook
+- Pandas and Numpy
+- Natural language processing
+- words embeddings
+- Chatbot GUI library
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by...Industrial safety
+
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@singh54] - feel free to contact me!
 
 
 <!-- Optional -->
