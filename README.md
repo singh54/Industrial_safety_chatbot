@@ -37,7 +37,7 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Gradient Boosting emerged as the best performer, achieving a test accuracy of 92.03% with perfect training accuracy (100%). This highlights its strong ability to handle the increased dataset size and complexity augmentation introduced.
+- Gradient Boosting emerged as the best performer, achieving a test accuracy of 92.03% with perfect training accuracy (95%). This highlights its strong ability to handle the increased dataset size and complexity augmentation introduced.
 - Address class imbalance using oversampling, undersampling, or class weights.
 - Validate the quality and representativeness of embeddings and categorical features.
 - Evaluate the model on more granular metrics per class to better understand its performance.
